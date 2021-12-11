@@ -9,7 +9,7 @@ and buyoyancy of the cod, which in this case is for the growth of the sardine, d
 stages of this one (Yolk-Sac and Feeding Larvae), but discarding the case of the larval movement, only using the movement of the sea water obtained by the
 netcdf files. 
 
-For the use of this class, in an initial script of OpenDrift, must write the model "larvalfish_ieo" and choose the variables
+For the use of this class, in an initial script of OpenDrift, must write the model "LarvalFish_sardine" and choose the variables
 you want to export for the representation. The file oceandrift_ieo.py is like the original oceandrift.py but with a few 
 modifications, including a new function that obtains the first parameters of temperature and salinity of the ROMS ecological
 model (doesn't work with a ROMS without a biological part) in the first timestep, necessary for the egg development, and a few
