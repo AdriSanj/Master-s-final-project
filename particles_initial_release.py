@@ -1,12 +1,12 @@
 import numpy as np
 import pyproj
 import matplotlib.pyplot as plt
-radius_type='uniform'
+radius_type = 'uniform'
 
 
 lon = -9
 lat = 42
-z = 10            # Dont know if here is positive or negative 
+z = 10           
 radius = 500
 number = 1000
 
