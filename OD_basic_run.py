@@ -25,7 +25,7 @@ start = time.time()
 #latitude = 42
 
 # Radius for uniform dispersion around source [meters]
-R = 500.0
+#R = 500.0
 
 
 # Set number of floats 
