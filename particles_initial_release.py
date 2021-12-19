@@ -6,7 +6,7 @@ radius_type = 'uniform'
 
 lon = -9
 lat = 42
-z = 10           
+z = 10       # Positive for Ichthyop, negative for OpenDrift    
 radius = 500
 number = 1000
 
