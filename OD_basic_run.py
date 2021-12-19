@@ -23,6 +23,7 @@ start = time.time()
 # Initial coordinates if we dont input a .txt file.
 #longitude = -9
 #latitude = 42
+#z = -10    # In meters
 
 # Radius for uniform dispersion around source [meters]
 #R = 500.0
@@ -77,7 +78,7 @@ model.seed_elements(lon = lon,
                 #object_type=object_type
                 )
 
-# Para evitar el beaching
+# For avoid beaching
 #model.set_config('general:coastline_action', 'previous')
 
 model.set_config('drift:advection_scheme', 'runge-kutta')
